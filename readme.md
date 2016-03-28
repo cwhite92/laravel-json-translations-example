@@ -11,9 +11,9 @@ seed the database: `php artisan migrate --seed`.
 
 ## How it works
 
-The [https://github.com/cwhite92/laravel-json-translations-example/blob/master/database/migrations/2016_03_23_221443_create_posts_table.php](migration)
+The [migration](https://github.com/cwhite92/laravel-json-translations-example/blob/master/database/migrations/2016_03_23_221443_create_posts_table.php)
 sets up a posts table, where the translatable fields use the JSON data type. Returning translated field values is
-handled by the [https://github.com/cwhite92/laravel-json-translations-example/blob/master/app/Translatable.php](Translatable)
+handled by the [Translatable](https://github.com/cwhite92/laravel-json-translations-example/blob/master/app/Translatable.php)
 trait.
 
 To see it in action, browse to the `/posts` URL and try switching languages. You should see localised post titles
